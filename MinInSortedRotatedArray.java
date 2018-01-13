@@ -1,7 +1,8 @@
 class Solution {
     public int findMin(int[] arr) {
         int lo = 0, hi = arr.length - 1, mid;
-        
+
+        //binary search
         while(lo < hi){
             mid = lo + (hi-lo)/2;
             if ( (mid == 0 || arr[mid] < arr[mid-1]) 
@@ -14,6 +15,8 @@ class Solution {
                 lo = mid + 1;
             }
         }
+        
+        //remaining one stays in "lo"
         return arr[lo];
     }
 }
