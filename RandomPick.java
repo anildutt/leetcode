@@ -35,7 +35,7 @@ class Solution {
             if (nums[i] == target)
                 if (rnd.nextInt(++count) == 0)
                     result = i;
-        }
+        } 
 
         return result;
     }
