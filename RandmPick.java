@@ -4,7 +4,6 @@ class Solution {
     
     public Solution(int[] nums) {
         //approach 1
-        /* 
         map = new HashMap<Integer, List<Integer>>();
         for(int i = 0; i<nums.length; i++){
             int num = nums[i];
@@ -15,23 +14,22 @@ class Solution {
                 list.add(i);
                 map.put(num, list);
             }
-        } */
+        }
         
         //aproach 2
         this.nums = nums;
     }
     
-    public int pick(int target) {
-        //approach 1 - using Random directly on indices
-        /*
-        List<Integer> indices = map.get(target);
+    public int pick(int target) {        
+        int result = -1;
         Random rand = new Random();
+        
+        //approach 1 - using Random directly on indices
+        List<Integer> indices = map.get(target);
         int randIdx = rand.nextInt(indices.size());
-        return indices.get(randIdx); */
+        result = indices.get(randIdx);
         
         //approach 2 - Rervoir Sampling
-        Random rnd = new Random();
-        int result = -1;
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == target)
