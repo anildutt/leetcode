@@ -1,3 +1,5 @@
+package leetcode;
+
 public class NFLGame {
 	public static void main(String[] args) {
 		String s = findContestMatch(5);

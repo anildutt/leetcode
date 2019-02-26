@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * You could simply convert to negative number, then find Base7 rep, then prepend "-".
  * Below, I'm handling neg num case in-line.

@@ -1,3 +1,5 @@
+package leetcode;
+
 class Trie {
     
     TrieNode root;

@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     Map<Integer, List<Integer>> map;
     int[] nums;

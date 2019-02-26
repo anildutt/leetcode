@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public boolean PredictTheWinner(int[] nums) {
         return canIWin(nums, 0, nums.length - 1, 0, 0);

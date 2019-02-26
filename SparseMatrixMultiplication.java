@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Solution{
 
   //For each result element, find elements from A, B that contribute and compute Sum(products)

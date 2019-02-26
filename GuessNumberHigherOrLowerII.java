@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  Algo - DP[i][j] = Minimum { x$ + Max{ DP[i-1 -> x], DP[x+1 -> j]}  
                     over all x ranging from i -> j;

@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public int[][] reconstructQueue(int[][] people) {
         if(people.length == 0) return people;

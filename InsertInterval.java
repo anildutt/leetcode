@@ -1,4 +1,4 @@
-package javaStuff;
+package leetcode;
 
 /**
  * Definition for an interval.

@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(heaters);

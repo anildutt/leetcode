@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> freq = new HashMap<String, Integer>();

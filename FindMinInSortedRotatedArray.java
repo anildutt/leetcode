@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public int findMin(int[] arr) {
         int lo = 0, hi = arr.length - 1, mid;

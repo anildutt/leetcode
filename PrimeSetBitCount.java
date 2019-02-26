@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public int countPrimeSetBits(int L, int R) {
         int ans = 0;

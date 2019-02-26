@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Solution {
     
     //Approach 1

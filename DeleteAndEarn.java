@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Given an array nums of integers, you can perform operations on the array.
  * In each operation, you pick any nums[i] and delete it to earn nums[i] points. 

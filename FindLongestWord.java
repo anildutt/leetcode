@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     List<String> result ; 
     Set<String> dict;

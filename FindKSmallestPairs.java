@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     /**
      Algo - For each element of nums1, maintian last nums2's index already considered for min_sum.

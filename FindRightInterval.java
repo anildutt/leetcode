@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Definition for an interval.
  * public class Interval {

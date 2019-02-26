@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     int[] nums;
     int[] shuffled;

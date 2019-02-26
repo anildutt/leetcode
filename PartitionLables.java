@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     int freq[] = new int[26];
     public List<Integer> partitionLabels(String S) {

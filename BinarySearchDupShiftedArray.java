@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public boolean search(int[] nums, int target) {
         int lo = 0, hi = nums.length - 1;

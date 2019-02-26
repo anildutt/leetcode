@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     /*
      Algo: incrementing n-1 elements == decremeting 1 element.

@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         Trie dict = new Trie();

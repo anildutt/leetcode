@@ -1,17 +1,17 @@
 /**
- * Monitor based solution to alternate between 3 threads 
+ * Monitor based solution to alternate between 3 threads
  * to print the sequence :  0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0..
- * 
+ *
  * @author Anil
  */
 public class MonitorCommunicate {
 	public static void main(String[] args) {
 		Monitor monitor = new Monitor(0); //start with thread-0's turn
-		
+
 		Thread t1 = new Thread(new MyJob(0, 0, monitor));
 		Thread t2 = new Thread(new MyJob(1, 1, monitor));
 		Thread t3 = new Thread(new MyJob(2, 2, monitor));
-		
+
 		t1.start();
 		t2.start();
 		t3.start();

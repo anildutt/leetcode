@@ -1,4 +1,4 @@
-package javaStuff;
+package leetcode;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
